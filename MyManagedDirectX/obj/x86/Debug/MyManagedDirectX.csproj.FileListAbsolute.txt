@@ -1,0 +1,21 @@
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.exe.config
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.exe
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.pdb
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.Properties.Resources.resources
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.csproj.GenerateResource.Cache
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.exe
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.pdb
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.MainForm.resources
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.Map3DControl.resources
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.TestForm.resources
+E:\Work\My work\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.csprojResolveAssemblyReference.cache
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.exe.config
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.exe
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.pdb
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.exe
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\bin\Debug\MyManagedDirectX.pdb
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.MainForm.resources
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.TestForm.resources
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.Map3DControl.resources
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.Properties.Resources.resources
+E:\MyWork\MyManagedDirectX\MyManagedDirectX\obj\x86\Debug\MyManagedDirectX.csproj.GenerateResource.Cache

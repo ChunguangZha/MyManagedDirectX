@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EDE30C0-FE5D-4BE1-BBA5-00BF657DE102}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fracture_Identification</RootNamespace>
+    <AssemblyName>Fracture_Identification</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="netchartdir, Version=5.0.4.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\netchartdir.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartSolutions.Controls">
+      <HintPath>Reference\SmartSolutions.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>Reference\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ZedGraph, Version=5.1.2.878, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Reference\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataClass\DataStr4.cs" />
+    <Compile Include="DataClass\RoseDataClass.cs" />
+    <Compile Include="Forms\ContourPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ContourPicture.Designer.cs">
+      <DependentUpon>ContourPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\fratal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\fratal.Designer.cs">
+      <DependentUpon>fratal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FratalThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FratalThread.Designer.cs">
+      <DependentUpon>FratalThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPrincipalCurvatures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPrincipalCurvatures.designer.cs">
+      <DependentUpon>frmPrincipalCurvatures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmResourceManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmResourceManager.designer.cs">
+      <DependentUpon>frmResourceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPlainStressPara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlainStressPara.designer.cs">
+      <DependentUpon>frmPlainStressPara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRSFractal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRSFractal.Designer.cs">
+      <DependentUpon>frmRSFractal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmParameterView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmParameterView.Designer.cs">
+      <DependentUpon>FrmParameterView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="map.Designer.cs">
+      <DependentUpon>map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClass\data.cs" />
+    <Compile Include="DataClass\data3.cs" />
+    <Compile Include="DataClass\FaultDataClass.cs" />
+    <Compile Include="DataClass\Fractalifs.cs" />
+    <Compile Include="DataClass\LayerDataClass.cs" />
+    <Compile Include="DataClass\MainData.cs" />
+    <Compile Include="DataClass\Matrix.cs" />
+    <Compile Include="DataClass\OrignData.cs" />
+    <Compile Include="DataClass\Tools.cs" />
+    <Compile Include="DataClass\WellDataClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\frmPlainStress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPlainStress.Designer.cs">
+      <DependentUpon>frmPlainStress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourceMgr.cs" />
+    <Compile Include="网格值.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="网格值.Designer.cs">
+      <DependentUpon>网格值.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\ContourPicture.resx">
+      <DependentUpon>ContourPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\fratal.resx">
+      <DependentUpon>fratal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FratalThread.resx">
+      <DependentUpon>FratalThread.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPrincipalCurvatures.resx">
+      <DependentUpon>frmPrincipalCurvatures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmResourceManager.resx">
+      <DependentUpon>frmResourceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPlainStressPara.resx">
+      <DependentUpon>frmPlainStressPara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRSFractal.resx">
+      <DependentUpon>frmRSFractal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmParameterView.resx">
+      <DependentUpon>FrmParameterView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="map.resx">
+      <DependentUpon>map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\frmPlainStress.resx">
+      <DependentUpon>frmPlainStress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="网格值.resx">
+      <DependentUpon>网格值.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\计算器icon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safariicon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_03.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

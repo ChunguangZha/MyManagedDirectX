@@ -1,0 +1,364 @@
+E:\Programme\Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicFilter.resources
+E:\Programme\Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicFilter.resources
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicFilter.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.xml
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+C:\Documents and Settings\Administrator\桌面\复件 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\4-16 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\5-5 Fracture_Identification - 副本\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\5-21 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\5-21 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\5-27 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\5-28 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmTectonicStress.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\5-28 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\6-2 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\6-4 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\7-15 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.csprojResolveAssemblyReference.cache
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\张磊E\Programme\Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.csproj.GenerateResource.Cache
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.pdb
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\netchartdir.dll
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\SmartSolutions.Controls.dll
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\ZedGraph.dll
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.csprojResolveAssemblyReference.cache
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.ContourPicture.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.fractalF.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FratalThread.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPrincipalCurvatures.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\DAPS.Simulator.frmResourceManager.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStressPara.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmMain.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmRSFractal.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.FrmParameterView.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.mapForm.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.Properties.Resources.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.frmPlainStress.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\fractal.FormGrid.resources
+E:\2014\2014-10-川庆\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.csproj.GenerateResource.Cache
+E:\Work\My work\MyManagedDirectX\Documents\7-22 Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\bin\Debug\Fracture_Identification.exe.config
+E:\Work\My work\MyManagedDirectX\Documents\7-22 Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.exe
+E:\Work\My work\MyManagedDirectX\Documents\7-22 Fracture_Identification\7-22 Fracture_Identification\Fracture_Identification\obj\x86\Debug\Fracture_Identification.pdb
