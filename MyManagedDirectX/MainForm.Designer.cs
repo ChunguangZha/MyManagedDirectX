@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItemViewAll = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItemPan = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemRotatePan = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemZoomIn = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemZoomOut = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemRotateX = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemRotateY = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItemRotateZ = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripMenuItemLoadSplitLayerData = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButtonViewAll = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButtonPan = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonRotatePan = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonZoomIn = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonZoomOut = new System.Windows.Forms.ToolStripButton();
@@ -48,8 +48,6 @@
             this.toolStripButtonRotateY = new System.Windows.Forms.ToolStripButton();
             this.toolStripButtonRotateZ = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItemLoadSplitLayerData = new System.Windows.Forms.ToolStripMenuItem();
             this.map3DControl1 = new MyManagedDirectX.Map3DControl();
             this.contextMenuStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -59,7 +57,6 @@
             // 
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItemViewAll,
-            this.toolStripMenuItemPan,
             this.toolStripMenuItemRotatePan,
             this.toolStripMenuItemZoomIn,
             this.toolStripMenuItemZoomOut,
@@ -69,7 +66,7 @@
             this.toolStripSeparator2,
             this.toolStripMenuItemLoadSplitLayerData});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(147, 208);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(147, 186);
             // 
             // toolStripMenuItemViewAll
             // 
@@ -77,14 +74,6 @@
             this.toolStripMenuItemViewAll.Size = new System.Drawing.Size(146, 22);
             this.toolStripMenuItemViewAll.Text = "显示全图";
             this.toolStripMenuItemViewAll.Click += new System.EventHandler(this.toolStripMenuItemViewAll_Click);
-            // 
-            // toolStripMenuItemPan
-            // 
-            this.toolStripMenuItemPan.Image = global::MyManagedDirectX.Properties.Resources.平移;
-            this.toolStripMenuItemPan.Name = "toolStripMenuItemPan";
-            this.toolStripMenuItemPan.Size = new System.Drawing.Size(146, 22);
-            this.toolStripMenuItemPan.Text = "平移";
-            this.toolStripMenuItemPan.Click += new System.EventHandler(this.toolStripMenuItemPan_Click);
             // 
             // toolStripMenuItemRotatePan
             // 
@@ -134,11 +123,22 @@
             this.toolStripMenuItemRotateZ.Text = "绕Z轴旋转";
             this.toolStripMenuItemRotateZ.Click += new System.EventHandler(this.toolStripMenuItemRotateZ_Click);
             // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
+            // 
+            // toolStripMenuItemLoadSplitLayerData
+            // 
+            this.toolStripMenuItemLoadSplitLayerData.Name = "toolStripMenuItemLoadSplitLayerData";
+            this.toolStripMenuItemLoadSplitLayerData.Size = new System.Drawing.Size(146, 22);
+            this.toolStripMenuItemLoadSplitLayerData.Text = "导入断层数据";
+            this.toolStripMenuItemLoadSplitLayerData.Click += new System.EventHandler(this.toolStripMenuItemLoadSplitLayerData_Click);
+            // 
             // toolStrip1
             // 
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButtonViewAll,
-            this.toolStripButtonPan,
             this.toolStripButtonRotatePan,
             this.toolStripButtonZoomIn,
             this.toolStripButtonZoomOut,
@@ -161,16 +161,6 @@
             this.toolStripButtonViewAll.Size = new System.Drawing.Size(23, 22);
             this.toolStripButtonViewAll.Text = "显示全图";
             this.toolStripButtonViewAll.Click += new System.EventHandler(this.toolStripMenuItemViewAll_Click);
-            // 
-            // toolStripButtonPan
-            // 
-            this.toolStripButtonPan.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButtonPan.Image = global::MyManagedDirectX.Properties.Resources.平移;
-            this.toolStripButtonPan.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButtonPan.Name = "toolStripButtonPan";
-            this.toolStripButtonPan.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButtonPan.Text = "平移";
-            this.toolStripButtonPan.Click += new System.EventHandler(this.toolStripMenuItemPan_Click);
             // 
             // toolStripButtonRotatePan
             // 
@@ -237,18 +227,6 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
-            // 
-            // toolStripMenuItemLoadSplitLayerData
-            // 
-            this.toolStripMenuItemLoadSplitLayerData.Name = "toolStripMenuItemLoadSplitLayerData";
-            this.toolStripMenuItemLoadSplitLayerData.Size = new System.Drawing.Size(146, 22);
-            this.toolStripMenuItemLoadSplitLayerData.Text = "导入断层数据";
-            this.toolStripMenuItemLoadSplitLayerData.Click += new System.EventHandler(this.toolStripMenuItemLoadSplitLayerData_Click);
-            // 
             // map3DControl1
             // 
             this.map3DControl1.Action = MyManagedDirectX.de3DAction.PanRotate;
@@ -283,14 +261,12 @@
 
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemViewAll;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemPan;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemRotatePan;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemZoomIn;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemZoomOut;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemRotateX;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemRotateY;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButtonPan;
         private System.Windows.Forms.ToolStripButton toolStripButtonRotatePan;
         private System.Windows.Forms.ToolStripButton toolStripButtonZoomIn;
         private System.Windows.Forms.ToolStripButton toolStripButtonZoomOut;

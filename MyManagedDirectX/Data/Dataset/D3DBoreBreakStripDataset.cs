@@ -23,7 +23,7 @@ namespace MyManagedDirectX.Data.Dataset
         /// </summary>
         public Vector3 ThreeDViewBoundsMinPoint
         {
-            get { return _3DViewBoundsMinPoint; }
+            get { return new Vector3(); }
         }
 
         public Vector3 _3DViewBoundsMaxPoint = new Vector3(float.MinValue, float.MinValue, float.MinValue);
@@ -33,8 +33,27 @@ namespace MyManagedDirectX.Data.Dataset
         /// </summary>
         public Vector3 ThreeDViewBoundsMaxPoint
         {
-            get { return _3DViewBoundsMaxPoint; }
+            get
+            {
+                Vector3 max = this._3DViewBoundsMaxPoint - this._3DViewBoundsMinPoint;
+                max.Scale(1f / this.Scale);
+                return max;
+            }
         }
+
+        public float Scale
+        {
+            get
+            {
+                float maxLengthofSide = Utility.MaxLengthOfSide(this._3DViewBoundsMaxPoint, this._3DViewBoundsMinPoint);
+                return maxLengthofSide / DescMaxBounds;
+            }
+        }
+
+        /// <summary>
+        /// 最大目标区宽度，由于真实坐标范围过大，绘制出效果不清，因为将真实地理坐标缩小为以该值为边正方体的范围内。
+        /// </summary>
+        private float DescMaxBounds = 10f;
 
         #endregion
 
@@ -120,7 +139,9 @@ namespace MyManagedDirectX.Data.Dataset
                 {
                     if (pointList.Count > 2)
                     {
-                        D3DParallelGengonGeometry geo = new D3DParallelGengonGeometry(pointList, 10, 0);
+                        D3DParallelGengonGeometry geo = new D3DParallelGengonGeometry(pointList, 1, 0);
+                        float high = Utility.DistanceOfTwoVector(geo.ThreeDViewBoundsMaxPoint, geo.ThreeDViewBoundsMinPoint);
+                        geo.SetTopBottom((float)Math.Ceiling(high), 0);
                         this._listGeometries.Add(geo);
                     }
 
@@ -133,7 +154,9 @@ namespace MyManagedDirectX.Data.Dataset
 
             if (pointList.Count > 2)
             {
-                D3DParallelGengonGeometry geo = new D3DParallelGengonGeometry(pointList, 10, 0);
+                D3DParallelGengonGeometry geo = new D3DParallelGengonGeometry(pointList, 1, 0);
+                float high = Utility.DistanceOfTwoVector(geo.ThreeDViewBoundsMaxPoint, geo.ThreeDViewBoundsMinPoint);
+                geo.SetTopBottom((float)Math.Ceiling(high), 0);
                 this._listGeometries.Add(geo);
             }
 
@@ -146,35 +169,19 @@ namespace MyManagedDirectX.Data.Dataset
             {
                 ID3DGeometry firstGeo = this._listGeometries[0];
 
-                float x1 = firstGeo.ThreeDViewBoundsMinPoint.X - 1;
-                float x2 = firstGeo.ThreeDViewBoundsMaxPoint.X + 1;
+                float high = Utility.DistanceOfTwoVector(firstGeo.ThreeDViewBoundsMaxPoint, firstGeo.ThreeDViewBoundsMinPoint);
+
+                float x1 = firstGeo.ThreeDViewBoundsMinPoint.X - (high / 10);
+                float x2 = firstGeo.ThreeDViewBoundsMaxPoint.X + (high / 10);
                 float y = (firstGeo.ThreeDViewBoundsMaxPoint.Z + firstGeo.ThreeDViewBoundsMinPoint.Z) / 2f;
                 float z = (firstGeo.ThreeDViewBoundsMaxPoint.Y + firstGeo.ThreeDViewBoundsMinPoint.Y) / 2f;
 
                 List<Vector3> pointList1 = new List<Vector3>();
                 pointList1.Add(new Vector3(x1, y, z));
                 pointList1.Add(new Vector3(x2, y, z));
-                D3DCylinderGeometry geo1 = new D3DCylinderGeometry(pointList1, 1, Color.Red);
+                D3DCylinderGeometry geo1 = new D3DCylinderGeometry(pointList1, (high / 20), Color.Red);
                 this._listGeometries.Add(geo1);
             }
-
-            //List<Vector3> pointList00 = new List<Vector3>();
-            //pointList00.Add(new Vector3(-2, 0, 0));
-            //pointList00.Add(new Vector3(2, 0, 0));
-            //D3DCylinderGeometry geo00 = new D3DCylinderGeometry(pointList00, 1, Color.Red);
-            //this._listGeometries.Add(geo00);
-
-            //pointList = new List<PointF>();
-            //pointList.Add(new PointF(0, 0));
-            //pointList.Add(new PointF(0, 1));
-            //pointList.Add(new PointF(1, 1));
-            //pointList.Add(new PointF(1, 0));
-            //pointList.Add(new PointF(0, 0));
-            //D3DParallelGengonGeometry geo2 = new D3DParallelGengonGeometry(pointList, 1, 0);
-            //geo2.Color = Color.Green;
-
-            //this._listGeometries.Add(geo1);
-            //this._listGeometries.Add(geo2);
 
             ComputeWorldViewBounds();
         }
@@ -218,6 +225,8 @@ namespace MyManagedDirectX.Data.Dataset
             }
             _3DViewBoundsMinPoint = new Vector3(float.MaxValue, float.MaxValue, float.MaxValue);
             _3DViewBoundsMaxPoint = new Vector3(float.MinValue, float.MinValue, float.MinValue);
+
+            this._listGeometries.Clear();
         }
 
         public void CreateVertexBuffer(Device device)
@@ -230,10 +239,16 @@ namespace MyManagedDirectX.Data.Dataset
 
         public void Render(Device device)
         {
+            Matrix oldWorldMatrix = device.Transform.World;
+
+            device.Transform.World = Matrix.Translation(this._3DViewBoundsMinPoint * -1) * Matrix.Scaling(1f / this.Scale, 1f / this.Scale, 1f / this.Scale) * oldWorldMatrix;
+
             foreach (var item in this._listGeometries)
             {
                 item.Render(device);
             }
+
+            device.Transform.World = oldWorldMatrix;
         }
     }
 }

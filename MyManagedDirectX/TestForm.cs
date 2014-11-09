@@ -54,7 +54,7 @@ namespace MyManagedDirectX
         public void OnCreateDevice(object sender, EventArgs e)
         {
             Device dev = (Device)sender;
-            vertexBuffer = new VertexBuffer(typeof(CustomVertex.PositionColored), 100, dev, Usage.WriteOnly, CustomVertex.PositionColored.Format, Pool.Default);
+            vertexBuffer = new VertexBuffer(typeof(CustomVertex.PositionColored), 10, dev, Usage.WriteOnly, CustomVertex.PositionColored.Format, Pool.Default);
             indexBuffer = new IndexBuffer(typeof(int), 36, dev, 0, Pool.Default);
 
             vertexBuffer.Created += new EventHandler(OnCreateVertexBuffer);
@@ -121,112 +121,38 @@ namespace MyManagedDirectX
             //verts[5].Position = new Vector3(7f, 2f, 0f);
             //verts[5].Color = Color.Gold.ToArgb();
 
-            for (int i = 0; i < 50; i++)
+            for (int i = 0; i < 5; i++)
             {
-                float theta = (float)(2 * Math.PI * i) / 49;
-                verts[2 * i].Position = new Vector3((float)Math.Sin(theta), -1, (float)Math.Cos(theta));
+                float theta = (float)(2 * Math.PI * i) / 4;
+
+                Vector3 v1 = new Vector3((float)Math.Sin(theta), -1, (float)Math.Cos(theta));
+                v1.Add(new Vector3(2, 0, 0));
+                verts[2 * i].Position = v1;
                 verts[2 * i].Color = Color.Blue.ToArgb();
-                verts[2 * i + 1].Position = new Vector3((float)Math.Sin(theta), 1, (float)Math.Cos(theta));
+
+                Vector3 v2 = new Vector3((float)Math.Sin(theta), 1, (float)Math.Cos(theta));
+                v2.Add(new Vector3(2, 0, 0));
+                verts[2 * i + 1].Position = v2;
                 verts[2 * i + 1].Color = Color.Green.ToArgb();
             }
-
-            //verts[0].Position = new Microsoft.DirectX.Vector3(-1f, 1f, 1f);
-            //verts[0].Color = Color.Blue.ToArgb();
-            //verts[1].Position = new Microsoft.DirectX.Vector3(1f, 1f, 1f);
-            //verts[1].Color = Color.Red.ToArgb();
-            //verts[2].Position = new Microsoft.DirectX.Vector3(-1f, -1f, 1f);
-            //verts[2].Color = Color.Green.ToArgb();
-            //verts[3].Position = new Microsoft.DirectX.Vector3(1f, -1f, 1f);
-            //verts[3].Color = Color.Yellow.ToArgb();
-
-            //verts[4].Position = new Microsoft.DirectX.Vector3(-1f, 1f, -1f);
-            //verts[4].Color = Color.Blue.ToArgb();
-            //verts[5].Position = new Microsoft.DirectX.Vector3(1f, 1f, -1f);
-            //verts[5].Color = Color.Red.ToArgb();
-            //verts[6].Position = new Microsoft.DirectX.Vector3(-1f, -1f, -1f);
-            //verts[6].Color = Color.Green.ToArgb();
-            //verts[7].Position = new Microsoft.DirectX.Vector3(1f, -1f, -1f);
-            //verts[7].Color = Color.Yellow.ToArgb();
-
-            //verts[8].Position = new Microsoft.DirectX.Vector3(-2f, -2f, -2f);
-            //verts[8].Color = Color.Yellow.ToArgb();
-            //verts[9].Position = new Microsoft.DirectX.Vector3(-2f, -2f, 2f);
-            //verts[9].Color = Color.Yellow.ToArgb();
-            //verts[10].Position = new Microsoft.DirectX.Vector3(2f, -2f, 2f);
-            //verts[10].Color = Color.Yellow.ToArgb();
-            //verts[11].Position = new Microsoft.DirectX.Vector3(-2f, -2f, -2f);
-            //verts[11].Color = Color.Yellow.ToArgb();
-            //verts[12].Position = new Microsoft.DirectX.Vector3(2f, -2f, 2f);
-            //verts[12].Color = Color.Yellow.ToArgb();
-            //verts[13].Position = new Microsoft.DirectX.Vector3(2f, -2f, -2f);
-            //verts[13].Color = Color.Yellow.ToArgb();
-
-            //verts[14].Position = new Microsoft.DirectX.Vector3(-2f, -2f, 2f);
-            //verts[14].Color = Color.Yellow.ToArgb();
-            //verts[15].Position = new Microsoft.DirectX.Vector3(-2f, 2f, 2f);
-            //verts[15].Color = Color.Yellow.ToArgb();
-            //verts[16].Position = new Microsoft.DirectX.Vector3(2f, 2f, 2f);
-            //verts[16].Color = Color.Yellow.ToArgb();
-            //verts[17].Position = new Microsoft.DirectX.Vector3(-2f, -2f, 2f);
-            //verts[17].Color = Color.Yellow.ToArgb();
-            //verts[18].Position = new Microsoft.DirectX.Vector3(2f, 2f, 2f);
-            //verts[18].Color = Color.Yellow.ToArgb();
-            //verts[19].Position = new Microsoft.DirectX.Vector3(2f, -2f, 2f);
-            //verts[19].Color = Color.Yellow.ToArgb();
-
-
-
-            //verts[0].Position = new Microsoft.DirectX.Vector4(100f, 50f, 0.5f, 1f);
-            //verts[0].Color = Color.Red.ToArgb();
-            //verts[1].Position = new Microsoft.DirectX.Vector4(200f, 50f, 0.5f, 1f);
-            //verts[1].Color = Color.Red.ToArgb();
-            //verts[2].Position = new Microsoft.DirectX.Vector4(50f, 100f, 0.5f, 1f);
-            //verts[2].Color = Color.Red.ToArgb();
-
-            //verts[3].Position = new Microsoft.DirectX.Vector4(50f, 100f, 0.5f, 1f);
-            //verts[3].Color = Color.Red.ToArgb();
-            //verts[4].Position = new Microsoft.DirectX.Vector4(200f, 50f, 0.5f, 1f);
-            //verts[4].Color = Color.Red.ToArgb();
-            //verts[5].Position = new Microsoft.DirectX.Vector4(150f, 100f, 0.5f, 1f);
-            //verts[5].Color = Color.Red.ToArgb();
-
-            //verts[6].Position = new Microsoft.DirectX.Vector4(50f, 100f, 0.5f, 1f);
-            //verts[6].Color = Color.Green.ToArgb();
-            //verts[7].Position = new Microsoft.DirectX.Vector4(150f, 100f, 0.5f, 1f);
-            //verts[7].Color = Color.Green.ToArgb();
-            //verts[8].Position = new Microsoft.DirectX.Vector4(50f, 200f, 0.5f, 1f);
-            //verts[8].Color = Color.Green.ToArgb();
-
-            //verts[9].Position = new Microsoft.DirectX.Vector4(50f, 200f, 0.5f, 1f);
-            //verts[9].Color = Color.Green.ToArgb();
-            //verts[10].Position = new Microsoft.DirectX.Vector4(150f, 100f, 0.5f, 1f);
-            //verts[10].Color = Color.Green.ToArgb();
-            //verts[11].Position = new Microsoft.DirectX.Vector4(150f, 200f, 0.5f, 1f);
-            //verts[11].Color = Color.Green.ToArgb();
-
-            //verts[12].Position = new Microsoft.DirectX.Vector4(150f, 100f, 0.5f, 1f);
-            //verts[12].Color = Color.Blue.ToArgb();
-            //verts[13].Position = new Microsoft.DirectX.Vector4(200f, 50f, 0.5f, 1f);
-            //verts[13].Color = Color.Blue.ToArgb();
-            //verts[14].Position = new Microsoft.DirectX.Vector4(200f, 150f, 0.5f, 1f);
-            //verts[14].Color = Color.Blue.ToArgb();
-
-            //verts[15].Position = new Microsoft.DirectX.Vector4(150f, 100f, 0.5f, 1f);
-            //verts[15].Color = Color.Blue.ToArgb();
-            //verts[16].Position = new Microsoft.DirectX.Vector4(200f, 150f, 0.5f, 1f);
-            //verts[16].Color = Color.Blue.ToArgb();
-            //verts[17].Position = new Microsoft.DirectX.Vector4(150f, 200f, 0.5f, 1f);
-            //verts[17].Color = Color.Blue.ToArgb();
 
             vertexBuffer.Unlock();
         }
 
+        float roll = (float)Math.PI / -8;
+
         public void OnResetDevice(object sender, EventArgs e)
         {
+
             Device dev = (Device)sender;
             dev.RenderState.CullMode = Cull.None;//取消背面剔除
             dev.RenderState.Lighting = false;//取消灯光
             dev.Transform.Projection = Matrix.PerspectiveFovLH((float)Math.PI / 4, 1f, 1f, 100f);
+            //device.Transform.World = Matrix.Translation(2, 0, 0) * Matrix.Scaling(1f / 2f, 1f / 2f, 1f / 2f) * Matrix.RotationYawPitchRoll(0, (float)Math.PI / -8, 0);
+
+            //device.Transform.World = Matrix.RotationYawPitchRoll(roll, 0, 0);
+            //device.Transform.World = Matrix.RotationX(roll) * Matrix.RotationY(-roll) * Matrix.Translation(1,0,0);
+
         }
 
         void Modify(float x1, float y1)
@@ -250,29 +176,23 @@ namespace MyManagedDirectX
             device.Clear(ClearFlags.Target | ClearFlags.ZBuffer, Color.Black, 1.0f, 0);
 
             device.BeginScene();
-
-            //device.VertexFormat = CustomVertex.TransformedColored.Format;
-            //Modify(1f, 1f);
-            //device.DrawUserPrimitives(PrimitiveType.TriangleFan, 5, verts1);
-            //Modify(250f, 0f);
-            //device.DrawUserPrimitives(PrimitiveType.TriangleStrip, 4, verts1);
-            //Modify(500f, 0f);
-            //device.DrawUserPrimitives(PrimitiveType.TriangleList, 5, verts1);
-            //Modify(0f, 250f);
-            //device.DrawUserPrimitives(PrimitiveType.LineList, 5, verts1);
-            //Modify(250f, 250f);
-            //device.DrawUserPrimitives(PrimitiveType.LineStrip, 5, verts1);
-            //Modify(500f, 250f);
-            //device.DrawUserPrimitives(PrimitiveType.PointList, 5, verts1);
-
-            //verts1 = null;
-
+            
             SetupMatrices();//在程序运行期间，Device的三个变换不变，因此放在此处。
 
             device.SetStreamSource(0, vertexBuffer, 0);
             device.VertexFormat = CustomVertex.PositionColored.Format;
 
-            device.DrawPrimitives(PrimitiveType.TriangleStrip, 0, 98);
+            device.DrawPrimitives(PrimitiveType.TriangleStrip, 0, 8);
+
+            device.Transform.World = Matrix.Translation(-2, 0, 0) * Matrix.Scaling(1f / 2f, 1f / 2f, 1f / 2f);
+
+            device.DrawPrimitives(PrimitiveType.TriangleStrip, 0, 8);
+
+            device.Transform.World = Matrix.Translation(-2, 0, 0) * Matrix.Scaling(1f / 2f, 1f / 2f, 1f / 2f) * Matrix.RotationY(roll);
+
+            device.DrawPrimitives(PrimitiveType.TriangleStrip, 0, 8);
+
+
 
             //device.Indices = indexBuffer;
 
@@ -316,8 +236,6 @@ namespace MyManagedDirectX
         {
             //int iTime = Environment.TickCount % 1000;
             //Angle = iTime * (2f * (float)Math.PI) / 1000f;
-
-            device.Transform.World = Matrix.RotationY(Angle);
 
             //device.Transform.World = Matrix.RotationAxis((new Vector3((float)Math.Cos(Environment.TickCount/250f), 1, (float)Math.Sin(Environment.TickCount/250f))), Environment.TickCount/3000f);
 

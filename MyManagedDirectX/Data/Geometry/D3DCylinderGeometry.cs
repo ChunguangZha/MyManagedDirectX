@@ -162,29 +162,10 @@ namespace MyManagedDirectX.Data.Geometry
                     verts[2 * j + 1].Color = this.Color.ToArgb();
                 }
             }
-
-
-            //verts[0].Position = new Vector3(0f, 0f, 0f);
-            //verts[0].Color = Color.Red.ToArgb();
-            //verts[1].Position = new Vector3(0f, 2f, 0f);
-            //verts[1].Color = Color.Green.ToArgb();
-            //verts[2].Position = new Vector3(1f, 0f, 0f);
-            //verts[2].Color = Color.Yellow.ToArgb();
-            //verts[3].Position = new Vector3(3f, 3f, 0f);
-            //verts[3].Color = Color.Pink.ToArgb();
-            //verts[4].Position = new Vector3(4f, 0f, 0f);
-            //verts[4].Color = Color.Gray.ToArgb();
-            //verts[5].Position = new Vector3(7f, 2f, 0f);
-            //verts[5].Color = Color.Gold.ToArgb();
-
+            
             vertexBuffer.Unlock();
         }
-
-        private void ComputeYaw(float x1, float y1, float x2, float y2)
-        {
-
-        }
-
+        
         public void Render(Device device)
         {
             if (vertexBuffer != null)

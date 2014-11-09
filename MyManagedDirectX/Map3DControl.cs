@@ -83,6 +83,7 @@ namespace MyManagedDirectX
                 {
                     return 0;
                 }
+
                 return this._d3dProvider.WorldViewBoundsMinPoint.X;
             }
         }
@@ -94,7 +95,7 @@ namespace MyManagedDirectX
                 if (this._d3dProvider.GeometryCount == 0)
                 {
                     return 1;
-                } 
+                }
                 return this._d3dProvider.WorldViewBoundsMaxPoint.Y;
             }
         }
@@ -209,10 +210,9 @@ namespace MyManagedDirectX
         public void LoadData(string filePath)
         {
             _d3dProvider.LoadDataFile(filePath);
-
+            ViewAll();
             OnCreateDevice(this._device, null);
-            this.Action = de3DAction.ViewAll;
-            this.Action = de3DAction.PanRotate;
+            Render();
         }
 
         #region 建立场景
@@ -228,11 +228,11 @@ namespace MyManagedDirectX
             
             _device.DeviceReset += new EventHandler(OnResetDevice);
 
-            OnCreateDevice(this._device, null);
+            //OnCreateDevice(this._device, null);
             OnResetDevice(this._device, null);
 
-
-            this.Action = de3DAction.ViewAll;
+            ViewAll();
+            Render();
             this.Action = de3DAction.PanRotate;
         }
 
@@ -272,9 +272,9 @@ namespace MyManagedDirectX
             presentParams.EnableAutoDepthStencil = true;//允许使用一个深度缓存和一个深度模板，深度模板允许程序掩饰被渲染图像的一部分，使它们不被显示出来
             presentParams.AutoDepthStencilFormat = DepthFormat.D16;//设置16位的深度缓存
             presentParams.PresentFlag = PresentFlag.DiscardDepthStencil;
-            presentParams.MultiSample = MultiSampleType.None;
+            presentParams.MultiSample = MultiSampleType.FourSamples;
             presentParams.MultiSampleQuality = 0;
-
+            
             return presentParams;
         }
 
@@ -315,23 +315,71 @@ namespace MyManagedDirectX
                 dev.RenderState.CullMode = Cull.None;
                 dev.RenderState.AntiAliasedLineEnable = false;
                 dev.SetRenderState(RenderStates.MultisampleAntiAlias, true);
-                dev.RenderState.FillMode = FillMode.Solid;
+                //dev.RenderState.FillMode = FillMode.Solid;
                 dev.RenderState.ShadeMode = ShadeMode.Gouraud;
                 //dev.RenderState.ZBufferWriteEnable = true;
-                //dev.Transform.Projection = Matrix.PerspectiveFovLH((float)Math.PI / 4, 1f, 1f, 100f);
             }
             catch (Exception)
             {
 
             }
         }
+
+        protected void AttemptRecovery()
+        {
+            int ret;
+            _device.CheckCooperativeLevel(out ret);
+
+            switch (ret)
+            {
+                case (int)ResultCode.DeviceLost:
+                    break;
+                case (int)ResultCode.DeviceNotReset:
+                    try
+                    {
+                        InitializeGraphics();
+                        bDeviceLost = false;
+                    }
+                    catch (DeviceLostException)
+                    {
+                        Thread.Sleep(50);
+                    }
+                    break;
+            }
+        }
+
+        #endregion
         
+        #region 绘制
+
+        public void ViewAll()
+        {
+            this._cameraT = new Vector3((maxX + minX) / 2, (maxY + minY) / 2, (maxZ + minZ) / 2);
+            //float dis = (maxX - minX) > (maxZ - minZ) ? (maxX - minX) : (maxZ - minZ);
+            float dis = Utility.DistanceOfTwoVector(this._d3dProvider.WorldViewBoundsMaxPoint, this._d3dProvider.WorldViewBoundsMinPoint);
+            this._cameraP = new Vector3((maxX + minX) / 2, (maxY + minY) / 2, -1 * dis + minZ);
+
+            //this.SetupMatrices();
+            //Microsoft.DirectX.Matrix currentView = _device.Transform.View;//当前摄像机的视图矩阵
+            //_cameraP.Subtract(_cameraT);
+            //Vector4 tempV = Vector3.Transform(_cameraP, Microsoft.DirectX.Matrix.RotationQuaternion(
+            //   Quaternion.RotationAxis(new Vector3(currentView.M11, currentView.M21, currentView.M31), 45)));
+            //_cameraP.X = tempV.X + _cameraT.X;
+            //_cameraP.Y = tempV.Y + _cameraT.Y;
+            //_cameraP.Z = tempV.Z + _cameraT.Z;
+
+            _scale = _device.Viewport.Height / (float)(Math.Cos(45 * Math.PI / 180) * (maxY - minY));
+            _device.Transform.World = Microsoft.DirectX.Matrix.Identity;
+            rotateAngleX = rotateAngleY = rotateAngleZ = 0f;
+
+        }
+
         protected void SetupMatrices()
         {
             _device.Transform.View = Microsoft.DirectX.Matrix.LookAtLH(this._cameraP, this._cameraT, this._cameraUp);
-            _device.Transform.Projection = Microsoft.DirectX.Matrix.PerspectiveFovLH((float)Math.PI / 4.0F, _device.Viewport.Width / _device.Viewport.Height, 1f, 100f);
-            
-            //_device.Transform.View = Matrix.LookAtLH(new Vector3(0f, 3f, -6), new Vector3(0f, 0f, 0f), new Vector3(0f, 1f, 0f));
+
+            float zfarPlane = Utility.DistanceOfTwoVector(this._cameraP, this._cameraT) + Utility.DistanceOfTwoVector(this._d3dProvider.WorldViewBoundsMaxPoint, this._d3dProvider.WorldViewBoundsMinPoint);
+            _device.Transform.Projection = Microsoft.DirectX.Matrix.PerspectiveFovLH((float)Math.PI / 4.0F, _device.Viewport.Width / _device.Viewport.Height, 1f, zfarPlane);
 
         }
 
@@ -374,31 +422,6 @@ namespace MyManagedDirectX
             }
         }
 
-        protected void AttemptRecovery()
-        {
-            int ret;
-            _device.CheckCooperativeLevel(out ret);
-
-            switch (ret)
-            {
-                case (int)ResultCode.DeviceLost:
-                    break;
-                case (int)ResultCode.DeviceNotReset:
-                    try
-                    {
-                        InitializeGraphics();
-                        bDeviceLost = false;
-                    }
-                    catch (DeviceLostException)
-                    {
-                        Thread.Sleep(50);
-                    }
-                    break;
-            }
-        }
-
-        #endregion
-
         private void DrawAxisData()
         {
             Vector3 dpto, dpx, dpy, dpz;
@@ -436,6 +459,8 @@ namespace MyManagedDirectX
             //添加箭头数据
         }
 
+        #endregion
+
         #region 鼠标事件
 
         private void OnMouseWheel(object sender, MouseEventArgs e)
@@ -460,25 +485,6 @@ namespace MyManagedDirectX
 
             switch (action)
             {
-                case de3DAction.ViewAll:
-                    this._cameraT = new Vector3((maxX + minX) / 2, (maxY + minY) / 2, (maxZ + minZ) / 2);
-                    float dis = (maxX - minX) > (maxZ - minZ) ? (maxX - minX) : (maxZ - minZ);
-                    this._cameraP = new Vector3((maxX + minX) / 2, (maxY + minY) / 2, -1 * dis + minZ);
-                    
-                    this.SetupMatrices();
-                    //Microsoft.DirectX.Matrix currentView = _device.Transform.View;//当前摄像机的视图矩阵
-                    //_cameraP.Subtract(_cameraT);
-                    //Vector4 tempV = Vector3.Transform(_cameraP, Microsoft.DirectX.Matrix.RotationQuaternion(
-                    //   Quaternion.RotationAxis(new Vector3(currentView.M11, currentView.M21, currentView.M31), 45)));
-                    //_cameraP.X = tempV.X + _cameraT.X;
-                    //_cameraP.Y = tempV.Y + _cameraT.Y;
-                    //_cameraP.Z = tempV.Z + _cameraT.Z;
-
-                    _scale = _device.Viewport.Height / (float)(Math.Cos(45 * Math.PI / 180) * (maxY - minY));
-                    //_device.Transform.World = Microsoft.DirectX.Matrix.Identity;
-                    rotateAngleX = rotateAngleY = rotateAngleZ = 0.1f;
-
-                    break;
                 case de3DAction.ZoomIn:
                     ZoomIn();
                     img = Resources.放大;
@@ -636,16 +642,14 @@ namespace MyManagedDirectX
                 {
                     tempAngleX = 4 * (float)(e.Y - _mousePosition.Y) / this.Height;
                     tempAngleY = 2 * (float)(e.X - _mousePosition.X) / this.Width;
-                    Microsoft.DirectX.Matrix mW = _device.Transform.World;
-                    Microsoft.DirectX.Matrix mT = Microsoft.DirectX.Matrix.Translation(_cameraT);
-                    Microsoft.DirectX.Matrix mT1 = Microsoft.DirectX.Matrix.Translation(_cameraT * -1);
-                    Microsoft.DirectX.Matrix mRy = Microsoft.DirectX.Matrix.RotationYawPitchRoll(0, 0, -1 * tempAngleY);
-                    mW.Multiply(mT1);
-                    mW.Multiply(mRy);
-                    
-                    Microsoft.DirectX.Matrix mRx = Microsoft.DirectX.Matrix.RotationYawPitchRoll(0, -1 * tempAngleX, 0);
-                    mW.Multiply(mRx);
-                    mW.Multiply(mT);
+
+                    Matrix mW = _device.Transform.World;
+
+                    mW.Multiply(Matrix.Translation(_cameraT * -1));
+                    mW.Multiply(Matrix.RotationYawPitchRoll(-1 * tempAngleY, 0, 0));
+                    mW.Multiply(Matrix.RotationYawPitchRoll(0, -1 * tempAngleX, 0));
+                    mW.Multiply(Matrix.Translation(_cameraT));
+
                     _device.Transform.World = mW;
                 }
                 #endregion
@@ -777,10 +781,6 @@ namespace MyManagedDirectX
     /// </summary>
     public enum de3DAction
     {
-        /// <summary>
-        /// 显示全图
-        /// </summary>
-        ViewAll,
         /// <summary>
         /// 放大
         /// </summary>

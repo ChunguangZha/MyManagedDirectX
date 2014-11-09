@@ -18,7 +18,7 @@ namespace MyManagedDirectX.Data
         /// </summary>
         public Vector3 WorldViewBoundsMinPoint
         {
-            get { return _d3dDataset.ThreeDViewBoundsMinPoint; }
+            get { return this._d3dDataset.ThreeDViewBoundsMinPoint; }
         }
 
         /// <summary>

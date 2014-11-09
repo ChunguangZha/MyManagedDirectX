@@ -22,12 +22,8 @@ namespace MyManagedDirectX
 
         private void toolStripMenuItemViewAll_Click(object sender, EventArgs e)
         {
-            this.map3DControl1.Action = de3DAction.ViewAll;
-        }
-
-        private void toolStripMenuItemPan_Click(object sender, EventArgs e)
-        {
-            this.map3DControl1.Action = de3DAction.Pan;
+            this.map3DControl1.ViewAll();
+            this.map3DControl1.Render();
         }
 
         private void toolStripMenuItemRotatePan_Click(object sender, EventArgs e)

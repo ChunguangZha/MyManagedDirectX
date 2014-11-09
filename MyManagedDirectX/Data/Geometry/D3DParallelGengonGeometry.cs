@@ -26,7 +26,7 @@ namespace MyManagedDirectX.Data.Geometry
             get { return _3DViewBoundsMinPoint; }
         }
 
-        public Vector3 _3DViewBoundsMaxPoint = new Vector3(float.MinValue, float.MinValue, float.MinValue);
+        private Vector3 _3DViewBoundsMaxPoint = new Vector3(float.MinValue, float.MinValue, float.MinValue);
 
         /// <summary>
         /// 世界视界范围最大边界
@@ -87,6 +87,14 @@ namespace MyManagedDirectX.Data.Geometry
 
             this._vertexFacePointsCount = this._worldPoints.Count * 2;
             this._vertexTopPointsCount = this._vertexBottomPointsCount = (this._worldPoints.Count - 2) * 3;
+        }
+
+        public void SetTopBottom(float top, float bottom)
+        {
+            this.Top = top;
+            this.Bottom = bottom;
+
+            ComputeWorldViewBounds();
         }
 
         /// <summary>
